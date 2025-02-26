@@ -26,3 +26,20 @@ body{
 .bulbDSN:hover{
     color: white;
 }
+h1{
+    position: absolute;
+    text-align: center;
+    color: black;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    animation-name: move;
+    animation-duration: 15s;
+}
+@keyframes move {
+    0% {left: 50%; top: 70%;}
+    25% {left: 50%; top: 10%;}
+    50% {left: 50%; top: 70%;}
+    75% {left: 50%; top: 10%;}
+    100% {left: 50%; top:70%;}
+}
