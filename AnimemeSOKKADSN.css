@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    min-height: 100vh;
+
+    background: url(AnimemesLIGHToff.png) no-repeat;
+    background-size: cover;
+    
+}
+.bulbDSN {
+    margin: 10px;
+    padding: 18px;
+    width: 25%;
+    color: black;
+    font-size: 30px;
+    font-weight: bolder;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgb(100, 100, 100);
+}
+.bulbDSN:hover{
+    color: white;
+}
