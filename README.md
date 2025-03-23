@@ -26,3 +26,5 @@ git fetch -- Downloads new changes from the remote but doesn't apply them yet.
 git merge -- Combines the fetched changes into your local branch.
 
 git pull origin (branch name) -- Does both fetch and merge in one step.
+
+git remote add origin (github link).
