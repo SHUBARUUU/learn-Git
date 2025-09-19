@@ -28,3 +28,13 @@ git merge -- Combines the fetched changes into your local branch.
 git pull origin (branch name) -- Does both fetch and merge in one step.
 
 git remote add origin (github link).
+
+Additional Infos:
+- To commit in repositories (local/remote), we need to set up a profile name and email. Otherwise git will ask who you are.
+- Commit can work w any emails, BUT keep in mind you can't commit remotely, If the email isnt connected to the github. 
+- The user name also needs to be set up, or the terminal will use your default system username.
+- Global set ups name and email affects, ALL the repositories. (--global)
+
+git config () user.name "Shuabru" -- Sets up the user's name in local repositories, can have multiple names for different repositories. ADD --config in the parenthesis(remove the parenthesis after) if you want to declare globally.
+
+git config () user.mail "Shubaru@gmail.com" -- Sets up the user's email in local repositories, can have multiple emails for different repositories. ADD --config in the parenthesis(remove the parenthesis after) if you want to declare globally.
