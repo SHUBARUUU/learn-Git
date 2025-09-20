@@ -32,6 +32,7 @@ git remote add (origin/any name) (github link).
 -> Tracks local commits.
 
 git show--name-only (commit name/code, that was given after commiting locally.)
+
 git log --oneline
 
 Additional Infos:
