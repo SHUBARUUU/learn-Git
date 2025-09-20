@@ -30,6 +30,7 @@ git pull origin (branch name) -- Does both fetch and merge in one step.
 git remote add (origin/any name) (github link).
 
 -> Tracks local commits.
+
 git show--name-only (commit name/code, that was given after commiting locally.)
 git log --oneline
 
