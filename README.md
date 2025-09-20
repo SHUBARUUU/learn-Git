@@ -27,7 +27,11 @@ git merge -- Combines the fetched changes into your local branch.
 
 git pull origin (branch name) -- Does both fetch and merge in one step.
 
-git remote add origin (github link).
+git remote add (origin/any name) (github link).
+
+-> Tracks local commits.
+git show--name-only (commit name/code, that was given after commiting locally.)
+git log --oneline
 
 Additional Infos:
 - To commit in repositories (local/remote), we need to set up a profile name and email. Otherwise git will ask who you are.
