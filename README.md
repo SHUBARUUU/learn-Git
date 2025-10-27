@@ -44,3 +44,19 @@ Additional Infos:
 git config () user.name "Shuabru" -- Sets up the user's name in local repositories, can have multiple names for different repositories. ADD --config in the parenthesis(remove the parenthesis after) if you want to declare globally.
 
 git config () user.mail "Shubaru@gmail.com" -- Sets up the user's email in local repositories, can have multiple emails for different repositories. ADD --config in the parenthesis(remove the parenthesis after) if you want to declare globally.
+
+Git Flag Cheat Sheet (Short options)
+
+-v → verbose
+
+-m → message / move
+
+-u → upstream
+
+-b → branch
+
+-r → remote
+
+-a → all
+
+-d → delete
