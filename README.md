@@ -41,9 +41,9 @@ Additional Infos:
 - The user name also needs to be set up, or the terminal will use your default system username.
 - Global set ups name and email affects, ALL the repositories. (--global)
 
-git config () user.name "Shuabru" -- Sets up the user's name in local repositories, can have multiple names for different repositories. ADD --config in the parenthesis(remove the parenthesis after) if you want to declare globally.
+git config () user.name "Shuabru" -- Sets up the user's name in local repositories, can have multiple names for different repositories. ADD --global in the parenthesis(remove the parenthesis after) if you want to declare globally.
 
-git config () user.mail "Shubaru@gmail.com" -- Sets up the user's email in local repositories, can have multiple emails for different repositories. ADD --config in the parenthesis(remove the parenthesis after) if you want to declare globally.
+git config () user.email "Shubaru@gmail.com" -- Sets up the user's email in local repositories, can have multiple emails for different repositories. ADD --global in the parenthesis(remove the parenthesis after) if you want to declare globally.
 
 Git Flag Cheat Sheet (Short options)
 
